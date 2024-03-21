@@ -1,0 +1,18 @@
+body{
+
+	display: block;
+	max-width: 70em;
+	margin-left: 25em;
+
+}
+
+h1{
+
+	font-family: merriweather, arial;
+}
+
+p{
+
+	font-family: arvo, sans-serif;
+}
+
