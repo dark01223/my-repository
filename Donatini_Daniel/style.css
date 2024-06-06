@@ -1,0 +1,116 @@
+
+body {
+    /*background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ftitanic%2Fcomments%2Frr4szp%2F4k_widescreen_wallpaper_that_i_made_from_my%2F&psig=AOvVaw2RrulM8f3Mqe7-269qH0Wy&ust=1717247897581000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDE-4j9t4YDFQAAAAAdAAAAABAE') no-repeat center center fixed;*/
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    color: #333333;
+}
+
+/* Stile per il titolo principale */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 128, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Stile per il contenitore principale */
+.main {
+    display: flex;
+    /* justify-content: center; */
+    align-items: left;
+    min-height: 100vh;
+}
+
+/* Stile per il contenitore della card */
+#card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #000080;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.5), 0 0 20px rgba(0, 0, 128, 0.4), 0 0 30px rgba(0, 0, 128, 0.3);
+}
+
+/* Stile per il sottotitolo */
+#card h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000080;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Stile per la lista */
+#myUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUl li {
+    background: rgba(0, 0, 128, 0.1);
+    border-bottom: 1px solid #000080;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Stile per rendere il layout responsivo */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+        width: 90%;
+    }
+
+    #card {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    #card h2 {
+        font-size: 1.5em;
+    }
+
+    #myUl li {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+        width: 95%;
+    }
+
+    #card {
+        padding: 10px;
+        max-width: 95%;
+    }
+
+    #card h2 {
+        font-size: 1.2em;
+    }
+
+    #myUl li {
+        font-size: 0.8em;
+        padding: 6px;
+    }
+}
+
+p, h2{
+
+    text-align: center;
+}
